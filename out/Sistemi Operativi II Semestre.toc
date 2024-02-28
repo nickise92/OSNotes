@@ -1,0 +1,97 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{\numberline {1}Deadlock}{5}{}%
+\contentsline {section}{\numberline {1.1}Definizione di deadlock}{5}{}%
+\contentsline {paragraph}{\emph {Def}:}{5}{}%
+\contentsline {subsection}{\numberline {1.1.1}Modello di sistema}{5}{}%
+\contentsline {subsection}{\numberline {1.1.2}Condizioni necessarie}{6}{}%
+\contentsline {subsection}{\numberline {1.1.3}Esempio di deadlock}{6}{}%
+\contentsline {section}{\numberline {1.2}RAG: Resource Allocation Graph}{7}{}%
+\contentsline {subsection}{\numberline {1.2.1}Esempio di RAG}{8}{}%
+\contentsline {section}{\numberline {1.3}Gestione dei deadlock}{9}{}%
+\contentsline {paragraph}{Prevenzione statica:}{9}{}%
+\contentsline {paragraph}{Prevenzione dinamica:}{9}{}%
+\contentsline {paragraph}{Rivelazione e ripristino:}{10}{}%
+\contentsline {paragraph}{Algoritmo dello struzzo:}{10}{}%
+\contentsline {subsection}{\numberline {1.3.1}Prevenzione statica}{10}{}%
+\contentsline {subsubsection}{Mutua esclusione}{10}{}%
+\contentsline {subsubsection}{Hold and wait}{10}{}%
+\contentsline {subsubsection}{Assenza di prelazione}{10}{}%
+\contentsline {subsubsection}{Attesa circolare}{11}{}%
+\contentsline {subsection}{\numberline {1.3.2}Prevenzione dinamica}{12}{}%
+\contentsline {subsection}{\numberline {1.3.3}Stato safe, unsafe e deadlock}{12}{}%
+\contentsline {paragraph}{\emph {Def}:}{12}{}%
+\contentsline {subsubsection}{Spazio degli stati}{13}{}%
+\contentsline {subsubsection}{Esempi di stato safe e unsafe}{13}{}%
+\contentsline {subsubsection}{Deadlock \& Risorse}{13}{}%
+\contentsline {section}{\numberline {1.4}Algoritmi per la prevenzione dinamica}{14}{}%
+\contentsline {subsection}{\numberline {1.4.1}Algoritmo con RAG}{14}{}%
+\contentsline {subsection}{\numberline {1.4.2}Algoritmo del banchiere}{15}{}%
+\contentsline {subsection}{\numberline {1.4.3}Algoritmo di allocazione ($P_i$)}{16}{}%
+\contentsline {subsubsection}{Algoritmo di allocazione}{17}{}%
+\contentsline {subsection}{\numberline {1.4.4}Algoritmo di verifica dello stato}{17}{}%
+\contentsline {subsubsection}{Algoritmo di verifica dello stato}{18}{}%
+\contentsline {subsection}{\numberline {1.4.5}Esempio di algoritmo del banchiere}{18}{}%
+\contentsline {section}{\numberline {1.5}Rilevazione \& Ripristino}{20}{}%
+\contentsline {subsection}{\numberline {1.5.1}Rilevazione e ripristino con RAG}{21}{}%
+\contentsline {subsection}{\numberline {1.5.2}Algoritmo di rilevazione}{21}{}%
+\contentsline {subsubsection}{Codice algoritmo}{22}{}%
+\contentsline {subsection}{\numberline {1.5.3}Esempio di rilevazione}{23}{}%
+\contentsline {subsection}{\numberline {1.5.4}Ripristino}{24}{}%
+\contentsline {subsubsection}{Terminazione dei processi}{24}{}%
+\contentsline {subsubsection}{Prelazione di risorse}{24}{}%
+\contentsline {section}{\numberline {1.6}Conclusione}{25}{}%
+\contentsline {chapter}{\numberline {2}Gestione della Memoria}{27}{}%
+\contentsline {section}{\numberline {2.1}Introduzione}{27}{}%
+\contentsline {subsection}{\numberline {2.1.1}Vincolo}{27}{}%
+\contentsline {subsection}{\numberline {2.1.2}Come avviene la trasformazione?}{28}{}%
+\contentsline {subsubsection}{Fasi della Trasformazione}{28}{}%
+\contentsline {section}{\numberline {2.2}Binding dati/istruzioni e indirizzi di memoria}{28}{}%
+\contentsline {subsection}{\numberline {2.2.1}Compile time}{28}{}%
+\contentsline {subsection}{\numberline {2.2.2}Load time}{29}{}%
+\contentsline {subsection}{\numberline {2.2.3}Run time}{29}{}%
+\contentsline {paragraph}{Swap}{29}{}%
+\contentsline {paragraph}{Memria virtuale}{29}{}%
+\contentsline {subsection}{\numberline {2.2.4}Binding Statico e Binding Dinamico}{29}{}%
+\contentsline {subsubsection}{Esempio di binding}{30}{}%
+\contentsline {subsection}{\numberline {2.2.5}Linking statico o dinamico}{30}{}%
+\contentsline {subsection}{\numberline {2.2.6}Loader statico e dinamico}{30}{}%
+\contentsline {section}{\numberline {2.3}Spazi di indirizzamento}{31}{}%
+\contentsline {section}{\numberline {2.4}Binding: Statico vs Dinamico}{31}{}%
+\contentsline {subsection}{\numberline {2.4.1}Memory Management Unit - MMU}{32}{}%
+\contentsline {subsubsection}{Schema base dell'MMU}{32}{}%
+\contentsline {paragraph}{Registro base}{32}{}%
+\contentsline {section}{\numberline {2.5}Considerazioni}{32}{}%
+\contentsline {section}{\numberline {2.6}Allocazione contigua}{32}{}%
+\contentsline {subsection}{\numberline {2.6.1}Tecnica delle partizioni fisse}{33}{}%
+\contentsline {subsubsection}{Vincoli:}{33}{}%
+\contentsline {subsubsection}{Assegnazione della memoria}{33}{}%
+\contentsline {subsubsection}{Una coda per partizione}{33}{}%
+\contentsline {subsubsection}{Coda unica}{34}{}%
+\contentsline {subsubsection}{Supporto per la rilocazione dinamica}{34}{}%
+\contentsline {subsubsection}{Supporto per la rilocazione}{34}{}%
+\contentsline {subsubsection}{Considerazioni}{35}{}%
+\contentsline {subsection}{\numberline {2.6.2}Tecnica delle partizioni variabili}{35}{}%
+\contentsline {subsubsection}{Assegnazione della memoria}{35}{}%
+\contentsline {paragraph}{First-fit}{36}{}%
+\contentsline {paragraph}{Worst-fit}{36}{}%
+\contentsline {paragraph}{Best-fit}{36}{}%
+\contentsline {subsubsection}{Supporto per la rilocazione}{36}{}%
+\contentsline {subsubsection}{Considerazioni}{36}{}%
+\contentsline {subsection}{\numberline {2.6.3}Tecnica della compattazione}{36}{}%
+\contentsline {subsubsection}{Compattazione della memoria}{37}{}%
+\contentsline {subsection}{\numberline {2.6.4}Tecnica del Buddy system}{37}{}%
+\contentsline {subsubsection}{Buddy system: allocazione}{37}{}%
+\contentsline {subsubsection}{Buddy system: rilascio}{38}{}%
+\contentsline {subsubsection}{Buddy system: esempio}{38}{}%
+\contentsline {section}{\numberline {2.7}Paginazione}{39}{}%
+\contentsline {subsubsection}{Esempio di paginazione}{39}{}%
+\contentsline {subsection}{\numberline {2.7.1}Traduzione degli indirizzi}{39}{}%
+\contentsline {subsubsection}{Sicurezza}{40}{}%
+\contentsline {subsubsection}{Architettura MMU}{40}{}%
+\contentsline {subsubsection}{Esempio di traduzione degli indirizzi}{42}{}%
+\contentsline {subsection}{\numberline {2.7.2}Tabella delle pagine}{42}{}%
+\contentsline {subsubsection}{Implementazione in memoria}{43}{}%
+\contentsline {subsubsection}{Tempo di accesso effettivo - EAT}{43}{}%
+\contentsline {subsubsection}{Esempio}{44}{}%
+\contentsline {subsubsection}{Protezione}{44}{}%
